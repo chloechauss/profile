@@ -1,0 +1,112 @@
+body {
+  background-color: #eaf7fb57;
+  text-align: center;
+  color: #869775;
+  font-family: Open-sans;
+}
+
+h1, h2, h3{
+  font-family: Abril Fatface, sans-serif;
+  letter-spacing: 1px;
+}
+
+h2, h3 {
+  color: #c3c7ae;;
+}
+
+p {
+  font-size: 18px;
+}
+
+.img-circle {
+    width: 90px;
+    border-radius: 50px;
+}
+
+.gif {
+  width: 86px;
+  border-radius: 5px;
+}
+
+.btn-green {
+  background: #869775;
+  color: white;
+  font-size: 18px;
+  font-family: Open-sans;
+  font-weight: bolder;
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  height: 30px;
+  padding: 12px 8px 8px 8px;
+  margin: 0 auto;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.btn-green:hover {
+  background: #83884082;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+ul li {
+  display: inline;
+  padding-inline-start: 0;
+}
+
+li i {
+  color: #86977569;
+  font-size: 38px;
+  margin: 10px
+}
+
+li i:hover {
+    color: #83884082;
+}
+
+
+#bloc-top {
+  margin : 50px auto 20px auto;
+  padding: 10px 20px 30px 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 4px 3px 10px #0000001c;
+  padding: 5px 20px 20px 20px;
+  margin: 20px auto;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .btn-green {
+  width: 220px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .btn-green {
+  width: 220px;
+  }
+}
